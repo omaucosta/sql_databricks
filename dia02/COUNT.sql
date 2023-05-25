@@ -2,6 +2,7 @@
 SELECT count(*),
        count(1),
        count(idPedido)
+FROM silver.pizza_query.pedido
 
 -- COMMAND ----------
 
